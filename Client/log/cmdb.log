@@ -1,0 +1,19 @@
+发送时间：2019-04-15 15:24:15 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：发送失败   错误原因：  not a valid non-string sequence or mapping object 
+发送时间：2019-04-15 15:27:41 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：发送失败   错误原因：  not a valid non-string sequence or mapping object 
+发送时间：2019-04-15 15:29:38 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：发送失败   错误原因：  not a valid non-string sequence or mapping object 
+发送时间：2019-04-15 15:30:04 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：发送失败   错误原因：  HTTP Error 404: Not Found 
+发送时间：2019-04-15 15:30:30 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：发送失败   错误原因：  HTTP Error 404: Not Found 
+发送时间：2019-04-15 15:30:46 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：发送失败   错误原因：  not a valid non-string sequence or mapping object 
+发送时间：2019-04-15 15:31:41 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：发送失败   错误原因：  not a valid non-string sequence or mapping object 
+发送时间：2019-04-15 15:33:00 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：发送失败   错误原因：  HTTP Error 404: Not Found 
+发送时间：2019-04-15 15:40:45 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：发送失败   错误原因：  HTTP Error 403: Forbidden 
+发送时间：2019-04-15 15:43:10 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：成功收到数据！ 
+发送时间：2019-04-16 09:45:58 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：资产已经加入或者更新待审批区域！ 
+发送时间：2020-11-27 08:57:37 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：发送失败   错误原因：  <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> 
+发送时间：2020-11-27 09:01:21 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：发送失败   错误原因：  <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> 
+发送时间：2020-11-27 09:06:02 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：发送失败   错误原因：  <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。> 
+发送时间：2020-11-27 09:06:54 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：资产已经加入或者更新待审批区域！ 
+发送时间：2020-11-27 09:13:10 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：资产已经加入或者更新待审批区域！ 
+发送时间：2020-11-27 09:16:18 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：资产已经加入或者更新待审批区域！ 
+发送时间：2020-11-27 09:26:05 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：资产已经加入或者更新待审批区域！ 
+发送时间：2020-11-27 09:57:24 	 服务器地址：http://192.168.0.100:8000/assets/report/ 	 返回结果：资产已经加入或者更新待审批区域！ 
