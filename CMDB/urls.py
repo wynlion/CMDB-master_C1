@@ -16,8 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.urls import include
+from assets.views import AttachmentView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('assets/', include('assets.urls'))
+    path('assets/', include('assets.urls')),
+    path('attachment/<int:pk>/', AttachmentView.as_view(), name='attachment'),
 ]

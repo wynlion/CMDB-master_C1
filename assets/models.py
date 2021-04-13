@@ -458,4 +458,10 @@ class AllProjects(models.Model):
         verbose_name_plural = '项目总览'
 
 
+"""新增功能测试"""
+
+
+class Attachment(models.Model):
+    name = models.CharField(max_length=100, verbose_name='name')
+    file = models.FileField(upload_to='static/file', null=True, verbose_name='file ')
 

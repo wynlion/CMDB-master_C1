@@ -6,6 +6,11 @@ import json
 from assets import models
 from assets import asset_handler
 from django.shortcuts import get_object_or_404
+from assets.models import Attachment
+from CMDB import settings
+from django.views.generic.detail import DetailView
+from django.views.generic.base import ContextMixin
+from django.utils.http import urlquote
 
 
 def index(request):
@@ -85,3 +90,22 @@ def report(request):
             return HttpResponse('没有资产sn，请检查数据内容！')
 
     return HttpResponse('200 ok')
+
+
+"""新增功能测试"""
+
+
+class AttachmentView(DetailView):
+    queryset = Attachment.objects.all()
+    slug_field = 'id'
+
+    def get(self, request, *args, **kwargs):
+        instance = self.get_object()
+        if settings.DEBUG:
+            response = HttpResponse(instance.file, content_type='application/force-download')
+        else:
+            # x-sendfile is a module of apache,you can replace it with something else
+            response = HttpResponse(content_type='application/force-download')
+            response['X-Sendfile'] = instance.file.path
+        response['Content-Disposition'] = 'attachment; filename={}'.format(urlquote(instance.name))
+        return response
